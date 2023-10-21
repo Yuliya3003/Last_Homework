@@ -9,7 +9,7 @@ void GetNum(int num) {
         Console.Write(num);
      }
      else {
-        Console.Write(num + " ");
+        Console.Write(num + ", ");
         GetNum(num-1);
      }
 }
